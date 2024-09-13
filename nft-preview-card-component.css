@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 2rem;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90dvh;
+}
+
+#main-div {
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 70px 0px black;
+}
+
+#mdiv-img {
+  width: 100%;
+  border-radius: 0.6rem;
+  height: 100%;
+}
+
+#img1-div {
+  background-color: hsl(178, 100%, 50%);
+  height: 20rem;
+  border-radius: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+#mdiv-img:hover {
+  mix-blend-mode: multiply;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+h2:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+#mdiv-p {
+  line-height: 1.7rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.mdiv-p {
+  display: inline;
+}
+
+#third-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+#mdiv-p1 {
+  color: hsl(178, 100%, 50%);
+}
+
+#span-1,
+#mdiv-p2 {
+  color: hsl(215, 51%, 70%);
+}
+
+#span-2:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+#last-div {
+  height: 2.5rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#ldiv-img {
+  height: 100%;
+  margin-right: 1rem;
+  border: 1px solid #fff;
+  border-radius: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  #main-div {
+    height: 30rem;
+    width: 18rem;
+  }
+
+  #img1-div {
+    width: 100%;
+    height: 50%;
+  }
+
+  #main-div2 {
+    height: 50%;
+  }
+}
